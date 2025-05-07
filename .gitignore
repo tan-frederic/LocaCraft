@@ -1,0 +1,82 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# VS for Mac
+.vscode/
+.idea/
+*.sln*
+*.csproj.*
+
+# Auto-generated files
+*.g.i.cs
+*.g.cs
+*.i.cs
+
+# Backup & log files
+*.log
+*.bak
+*.tmp
+*.old
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# .NET Core
+project.assets.json
+*.deps.json
+*.runtimeconfig.json
+
+# Global tool restore
+.dotnet_tool/
+
+# WPF designer & temp files
+*.cache
+*.vspscc
+*.vssscc
+*.dbmdl
+*.psess
+*.vsp
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Deployment artifacts
+publish/
+*.publish.xml
+
+# Test result files
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Localization
+*.resx.*
+*.resources
+
+# Visual Studio database projects
+*.mdf
+*.ldf
+
+# Optional: ignore your app settings file if personal
+appsettings.Development.json
