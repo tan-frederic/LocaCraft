@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Background Menu -->
+    <SolidColorBrush x:Key="BackgroundMenu" Color="#FF162B6B"/>
+
+    <SolidColorBrush x:Key="PlaceholderText" Color="#FFA0A0A0"/>
+    
+    <!-- Borders -->
+    <SolidColorBrush x:Key="Borders" Color="#FFCCCCCC"/>
+    <SolidColorBrush x:Key="AccentDarkOver" Color="#FF396A84"/>
+    
+    <!-- Side Menu Button -->
+    <SolidColorBrush x:Key="Nav.Default" Color="Transparent"/>
+    <SolidColorBrush x:Key="Nav.Over" Color="#FF396A84"/>
+    <SolidColorBrush x:Key="Nav.Click" Color="#FF87B7D0"/>
+</ResourceDictionary>

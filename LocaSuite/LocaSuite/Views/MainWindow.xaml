@@ -1,0 +1,53 @@
+﻿<Window x:Class="LocaSuite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LocaSuite"
+        xmlns:vm="clr-namespace:LocaSuite.ViewModels"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="500"
+        Width="800"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--#region SIDE MENU-->        
+        <!-- Side Menu Background-->
+        <Rectangle Fill="{DynamicResource BackgroundMenu}"
+                   Grid.Column="0"
+                   Margin="0,0,0,0"/>
+
+        <!-- Side Menu-->
+        <StackPanel Grid.Column="0"
+                    Orientation="Vertical"
+                    Margin="10 15 10 10">
+            <Button x:Name="btnHome"
+                    Style="{DynamicResource SideMenuNavButton }"
+                    Margin="0,10,0,0"
+                    Command="{Binding ShowRealEstateList}">
+                <Viewbox Width="30" Height="30">
+                    <Path Data="{DynamicResource HomeIcon}"
+                      Fill="White"/>
+                </Viewbox>
+
+            </Button>
+        </StackPanel>
+        <ContentControl Grid.Column="1"
+                        Margin="0 20 0 10"
+                        Content="{Binding CurrentView}"/>
+        <!--#endregion-->
+    </Grid>
+
+    
+</Window>
