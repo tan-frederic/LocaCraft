@@ -14,6 +14,8 @@ namespace LocaSuite.ViewModels
 
         private readonly RealEstateDataService _service = new RealEstateDataService();
         private NewRealEstateView? _newRealEstateView;
+
+        private List<RealEstateAssetModel> _listRealEstateModel;
         #endregion
 
         #region CONSTRUCTOR

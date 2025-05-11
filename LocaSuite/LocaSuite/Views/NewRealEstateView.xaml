@@ -72,9 +72,9 @@
             <!-- Main Adress Textbox -->
             <TextBox x:Name="RealEstateAdress"
                      Grid.Row="2"
-                     Text="{Binding Address, ValidatesOnDataErrors=True}"
+                     Text="{Binding Address, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
                      Style="{StaticResource SearchBox}"
-                     Margin="0 0"/>
+                     Margin="0 0" Cursor=""/>
 
             <!-- Main Adress Text Placeholder -->
             <Label IsHitTestVisible="False"

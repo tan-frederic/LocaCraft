@@ -150,9 +150,11 @@ namespace LocaSuite.DataServices
         {
             // Wait for the semaphore to be available
             await _semaphore.WaitAsync();
+            _realEstateDataCache = await GetRealEstateAssetsAsync();
             try
             {
                 // Add the new RealEstateAssetModel to the list
+                realEstateAsset.Id = GenerateRealEstateId();
                 _realEstateDataCache.Add(realEstateAsset);
                 // Save the updated list to the file
                 await SaveRealEstateAssets(_realEstateDataCache);

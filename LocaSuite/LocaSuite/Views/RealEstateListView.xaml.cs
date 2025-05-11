@@ -26,5 +26,13 @@ namespace LocaSuite.Views
             InitializeComponent();
             DataContext = new RealEstateListViewModel();
         }
+
+        private async void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (DataContext is RealEstateListViewModel vm)
+            {
+                await vm.LoadRealEstateAsync();
+            }
+        }
     }
 }
