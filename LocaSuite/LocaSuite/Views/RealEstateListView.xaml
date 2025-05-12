@@ -19,9 +19,10 @@
 
         <!-- Search Text Bar -->
         <TextBox x:Name="SearchBoxTextPlaceHolder"
-         Grid.Row="0"
-         Style="{StaticResource SearchBox}"
-         Margin="20 0"/>
+                 Grid.Row="0"
+                 Style="{StaticResource SearchBox}"
+                 Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="20 0"/>
 
         <Label IsHitTestVisible="False"
                    Content="Search real estate..."
@@ -30,32 +31,38 @@
                    Margin="40 0 0 0"
                    Foreground="{StaticResource PlaceholderText}"
                    Visibility="{Binding Text.IsEmpty, ElementName=SearchBoxTextPlaceHolder, Converter={StaticResource BooleanVisibilityConverter}}"/>
-        
-        <ItemsControl x:Name="RealEstateList"
-                      Grid.Row="1"
-                      ItemsSource="{Binding RealEstateAssetModels}">
-            <!-- Grille en 2 colonnes -->
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <UniformGrid Columns="2"/>
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
 
-            <!-- Style de chaque "carte" -->
-            <ItemsControl.ItemContainerStyle>
-                <Style>
-                    <Setter Property="FrameworkElement.Margin" Value="10" />
-                </Style>
-            </ItemsControl.ItemContainerStyle>
+        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled"
+                      Grid.Row="1">
+            <ItemsControl x:Name="RealEstateList"                          
+                          ItemsSource="{Binding RealEstatesDisplayed}">
+                <!-- Grille en 2 colonnes -->
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
 
-            <!-- Affichage de chaque RealEstateCardItemView -->
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <views:RealEstateCardView />
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-            
-        </ItemsControl>
+                <!-- Style de chaque "carte" -->
+                <ItemsControl.ItemContainerStyle>
+                    <Style>
+                        <Setter Property="FrameworkElement.Width" Value="400"/>
+                        <Setter Property="FrameworkElement.Margin" Value="10" />
+                        <Setter Property="FrameworkElement.Height" Value="175" />
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
+
+                <!-- Affichage de chaque RealEstateCardItemView -->
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <views:RealEstateCardItemView />
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+
+            </ItemsControl>
+        </ScrollViewer>
+
         
         <!-- Placeholder Text -->
         <TextBlock Grid.Row="1"

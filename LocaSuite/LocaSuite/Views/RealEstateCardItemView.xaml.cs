@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LocaSuite.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,9 +19,9 @@ namespace LocaSuite.Views
     /// <summary>
     /// Logique d'interaction pour RealEstateCardView.xaml
     /// </summary>
-    public partial class RealEstateCardView : UserControl
+    public partial class RealEstateCardItemView : UserControl
     {
-        public RealEstateCardView()
+        public RealEstateCardItemView()
         {
             InitializeComponent();
         }

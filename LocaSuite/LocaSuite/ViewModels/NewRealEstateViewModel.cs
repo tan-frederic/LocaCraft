@@ -3,7 +3,6 @@ using CommunityToolkit.Mvvm.Input;
 using LocaSuite.DataServices;
 using LocaSuite.Models;
 using System.ComponentModel;
-using System.Diagnostics.Metrics;
 using System.Windows;
 
 namespace LocaSuite.ViewModels
