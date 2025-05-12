@@ -66,9 +66,9 @@
            FontSize="24">
             <TextBlock.Style>
                 <Style TargetType="TextBlock">
-                    <Setter Property="Visibility" Value="Visible" />
+                    <Setter Property="Visibility" Value="Collapsed" />
                     <Style.Triggers>
-                        <DataTrigger Binding="{Binding ElementName=EstateList, Path=HasItems}" Value="False">
+                        <DataTrigger Binding="{Binding ElementName=RealEstateList, Path=HasItems}" Value="False">
                             <Setter Property="Visibility" Value="Visible" />
                         </DataTrigger>
                     </Style.Triggers>
