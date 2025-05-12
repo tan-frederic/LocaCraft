@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\tanfr\\Documents\\Git\\LocaSuite\\LocaSuite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|c:\\users\\tanfr\\documents\\git\\locasuite\\locasuite\\locasuite\\views\\realestatecarditemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|solutionrelative:locasuite\\views\\realestatecarditemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|c:\\users\\tanfr\\documents\\git\\locasuite\\locasuite\\locasuite\\viewmodels\\realestatecarditemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|solutionrelative:locasuite\\viewmodels\\realestatecarditemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|c:\\users\\tanfr\\documents\\git\\locasuite\\locasuite\\locasuite\\views\\realestatecarditemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|solutionrelative:locasuite\\views\\realestatecarditemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|c:\\users\\tanfr\\documents\\git\\locasuite\\locasuite\\locasuite\\views\\newrealestateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|solutionrelative:locasuite\\views\\newrealestateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|c:\\users\\tanfr\\documents\\git\\locasuite\\locasuite\\locasuite\\views\\realestatecarditemview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|c:\\users\\tanfr\\documents\\git\\locasuite\\locasuite\\locasuite\\views\\realestatelistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|solutionrelative:locasuite\\views\\realestatelistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|c:\\users\\tanfr\\documents\\git\\locasuite\\locasuite\\locasuite\\views\\newrealestateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|solutionrelative:locasuite\\views\\newrealestateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{426CE65D-54B5-4197-BA60-9B6ACB094B04}|LocaSuite\\LocaSuite.csproj|c:\\users\\tanfr\\documents\\git\\locasuite\\locasuite\\locasuite\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -108,7 +108,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 152,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -129,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "NewRealEstateView.xaml",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaSuite\\LocaSuite\\LocaSuite\\Views\\NewRealEstateView.xaml",
               "RelativeDocumentMoniker": "LocaSuite\\Views\\NewRealEstateView.xaml",
@@ -141,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RealEstateListView.xaml",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaSuite\\LocaSuite\\LocaSuite\\Views\\RealEstateListView.xaml",
               "RelativeDocumentMoniker": "LocaSuite\\Views\\RealEstateListView.xaml",
@@ -153,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RealEstateCardItemView.xaml",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaSuite\\LocaSuite\\LocaSuite\\Views\\RealEstateCardItemView.xaml",
               "RelativeDocumentMoniker": "LocaSuite\\Views\\RealEstateCardItemView.xaml",
@@ -178,13 +178,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RealEstateCardItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaSuite\\LocaSuite\\LocaSuite\\ViewModels\\RealEstateCardItemViewModel.cs",
               "RelativeDocumentMoniker": "LocaSuite\\ViewModels\\RealEstateCardItemViewModel.cs",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaSuite\\LocaSuite\\LocaSuite\\ViewModels\\RealEstateCardItemViewModel.cs",
               "RelativeToolTip": "LocaSuite\\ViewModels\\RealEstateCardItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T19:47:19.79Z",
               "EditorCaption": ""
@@ -254,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RealEstateCardItemView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaSuite\\LocaSuite\\LocaSuite\\Views\\RealEstateCardItemView.xaml.cs",
               "RelativeDocumentMoniker": "LocaSuite\\Views\\RealEstateCardItemView.xaml.cs",
