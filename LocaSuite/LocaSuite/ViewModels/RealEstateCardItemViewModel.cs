@@ -29,17 +29,12 @@ namespace LocaSuite.ViewModels
         }
 
         [RelayCommand]
-        public void AskDeleteRealEstate()
+        public async Task AskDeleteRealEstate()
         {
             if (MessageBox.Show("Are you sure you want to delete this estate?", "Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
-                //DeleteRealEstate();
+                await _service.DeleteRealEstateAsset(RealEstateAssetModel.Id);
             }
-        }
-
-        private async Task DeleteRealEstate()
-        {
-            await _service.DeleteRealEstateAsset(RealEstateAssetModel.Id);
         }
 
         [RelayCommand]
