@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaSuite\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locasuite\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaSuite\\LocaCraft.csproj|solutionrelative:locasuite\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaSuite\\Views\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LocaSuite\\Views\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Models\\RealEstateAssetModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LocaCraft\\Models\\RealEstateAssetModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Models\\LeaseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LocaCraft\\Models\\LeaseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LocaCraft\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\models\\realestateassetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\models\\realestateassetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LocaCraft\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\models\\leasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\models\\leasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,12 +41,11 @@
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaSuite\\Views\\MainWindow.xaml",
               "RelativeToolTip": "LocaSuite\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-14T23:27:35.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T23:27:35.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "LocaCraft\\AssemblyInfo.cs",
@@ -58,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\App.xaml",
               "RelativeDocumentMoniker": "LocaCraft\\App.xaml",
@@ -69,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RealEstateAssetModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Models\\RealEstateAssetModel.cs",
               "RelativeDocumentMoniker": "LocaCraft\\Models\\RealEstateAssetModel.cs",
@@ -80,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LeaseModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Models\\LeaseModel.cs",
               "RelativeDocumentMoniker": "LocaCraft\\Models\\LeaseModel.cs",
