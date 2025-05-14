@@ -1,8 +1,8 @@
-﻿using LocaSuite.ViewModels;
+﻿using LocaCraft.ViewModels;
 using System.Windows;
 using System.Windows.Input;
 
-namespace LocaSuite.Views
+namespace LocaCraft.Views
 {
     /// <summary>
     /// Logique d'interaction pour NewRealEstateView.xaml

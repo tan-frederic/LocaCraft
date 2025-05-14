@@ -1,11 +1,11 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using LocaSuite.DataServices;
-using LocaSuite.Models;
-using LocaSuite.Views;
+using LocaCraft.DataServices;
+using LocaCraft.Models;
+using LocaCraft.Views;
 using System.Collections.ObjectModel;
 
-namespace LocaSuite.ViewModels
+namespace LocaCraft.ViewModels
 {
     public partial class RealEstateListViewModel : ObservableObject
     {

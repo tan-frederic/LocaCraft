@@ -1,12 +1,12 @@
-﻿using LocaSuite.DataServices;
-using LocaSuite.Models;
+﻿using LocaCraft.DataServices;
+using LocaCraft.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LocaSuite.ViewModels
+namespace LocaCraft.ViewModels
 {
     class RealEstateDetailsViewModel
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LocaSuite.Models
+namespace LocaCraft.Models
 {
     public class TenantModel
     {

@@ -1,11 +1,11 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using LocaSuite.DataServices;
-using LocaSuite.Models;
+using LocaCraft.DataServices;
+using LocaCraft.Models;
 using System.ComponentModel;
 using System.Windows;
 
-namespace LocaSuite.ViewModels
+namespace LocaCraft.ViewModels
 {
     public partial class NewRealEstateViewModel : ObservableObject, IDataErrorInfo
     {

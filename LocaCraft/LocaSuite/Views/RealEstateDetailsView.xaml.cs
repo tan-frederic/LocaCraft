@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LocaSuite.Views
+namespace LocaCraft.Views
 {
     /// <summary>
     /// Logique d'interaction pour RealEstateDetailsView.xaml

@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace LocaSuite
+namespace LocaCraft
 {
     /// <summary>
     /// Interaction logic for App.xaml

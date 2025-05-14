@@ -1,9 +1,9 @@
-﻿using LocaSuite.Models;
+﻿using LocaCraft.Models;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using System.IO;
 
-namespace LocaSuite.DataServices
+namespace LocaCraft.DataServices
 {
     public class RealEstateDataService
     {
