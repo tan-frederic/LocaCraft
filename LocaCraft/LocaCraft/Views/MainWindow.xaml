@@ -8,8 +8,8 @@
         xmlns:view="clr-namespace:LocaCraft.Views"
         mc:Ignorable="d"
         Title="MainWindow"
-        Height="900"
-        Width="1100"
+        Height="1000"
+        Width="950"
         WindowStartupLocation="CenterScreen">
 
     <!--
