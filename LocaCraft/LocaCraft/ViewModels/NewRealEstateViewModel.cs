@@ -7,7 +7,7 @@ using System.Windows;
 
 namespace LocaCraft.ViewModels
 {
-    public partial class NewRealEstateViewModel : ObservableObject, IDataErrorInfo
+    public partial class NewRealEstateViewModel : BaseViewModel, IDataErrorInfo
     {
         #region ACTIONS
         public Action CloseAction { get; set; } = null!;

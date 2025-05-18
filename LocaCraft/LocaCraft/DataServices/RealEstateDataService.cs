@@ -66,22 +66,21 @@ namespace LocaCraft.DataServices
             }
 
 #if DEBUG
-            try
-            {
-                // For debug purpose
-                string folderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), _folderName);
-                ProcessStartInfo startInfo = new ProcessStartInfo
-                {
-                    FileName = folderPath,
-                    UseShellExecute = true
-                };
-                Process.Start(startInfo);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error creating file: {ex.Message}");
-            }
-
+            //try
+            //{
+            //    // For debug purpose
+            //    string folderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), _folderName);
+            //    ProcessStartInfo startInfo = new ProcessStartInfo
+            //    {
+            //        FileName = folderPath,
+            //        UseShellExecute = true
+            //    };
+            //    Process.Start(startInfo);
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine($"Error creating file: {ex.Message}");
+            //}
 #endif
         }
 

@@ -5,18 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LocaCraft"
         xmlns:vm="clr-namespace:LocaCraft.ViewModels"
+        xmlns:view="clr-namespace:LocaCraft.Views"
         mc:Ignorable="d"
         Title="MainWindow"
         Height="800"
         Width="1000"
         WindowStartupLocation="CenterScreen">
 
-    <Window.DataContext>
-        <vm:MainWindowViewModel/>
-    </Window.DataContext>
+    <!--
+    Data template definitions for dynamic view 
+    loading based on the current ViewModel.
+    -->
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:RealEstateListViewModel}">
+            <view:RealEstateListView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:RealEstateDetailsViewModel}">
+            <view:RealEstateDetailsView />
+        </DataTemplate>
+    </Window.Resources>
 
+    <!-- Main Window grid content view -->
     <Grid>
-        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="80"/>
             <ColumnDefinition Width="1*"/>
@@ -43,6 +53,8 @@
 
             </Button>
         </StackPanel>
+        
+        <!-- Main page Content -->
         <ContentControl Grid.Column="1"
                         Margin="0 20 0 10"
                         Content="{Binding CurrentView}"/>

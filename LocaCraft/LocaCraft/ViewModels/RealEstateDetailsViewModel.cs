@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LocaCraft.ViewModels
 {
-    class RealEstateDetailsViewModel
+    class RealEstateDetailsViewModel : BaseViewModel
     {
         #region ATTRIBUTES
         public RealEstateAssetModel RealEstateAssetModel { get; private set; }

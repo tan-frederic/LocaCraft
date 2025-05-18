@@ -4,25 +4,24 @@ using LocaCraft.Views;
 
 namespace LocaCraft.ViewModels
 {
-    public partial class MainWindowViewModel : ObservableObject
+    public partial class MainWindowViewModel : BaseViewModel
     {
         #region Variables
         [ObservableProperty]
-        private object _currentView;
+        private BaseViewModel _currentView;
         #endregion
-
 
         #region Constructor
         public MainWindowViewModel()
         {
-            _currentView = new RealEstateListView();
+            _currentView = new RealEstateListViewModel();
         }
         #endregion
 
         [RelayCommand]
         public void ShowRealEstateList()
         {
-            _currentView = new RealEstateListView();
+            _currentView = new RealEstateListViewModel();
         }
     }
 }

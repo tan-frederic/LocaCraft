@@ -7,7 +7,7 @@ using System.Collections.ObjectModel;
 
 namespace LocaCraft.ViewModels
 {
-    public partial class RealEstateListViewModel : ObservableObject
+    public partial class RealEstateListViewModel : BaseViewModel
     {
         #region ATTRIBUTES
         public ObservableCollection<RealEstateAssetModel> RealEstateAssetModels { get; set; } = new ObservableCollection<RealEstateAssetModel>();

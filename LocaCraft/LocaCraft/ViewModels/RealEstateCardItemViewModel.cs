@@ -6,7 +6,7 @@ using System.Windows;
 
 namespace LocaCraft.ViewModels
 {
-    public partial class RealEstateCardItemViewModel : ObservableObject
+    public partial class RealEstateCardItemViewModel : BaseViewModel
     {
         #region ATTRIBUTES
         public RealEstateAssetModel RealEstateAssetModel { get; private set; }
