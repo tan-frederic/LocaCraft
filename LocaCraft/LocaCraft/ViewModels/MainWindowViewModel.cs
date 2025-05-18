@@ -1,6 +1,8 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using LocaCraft.Views;
+using LocaCraft.Commands;
+using LocaCraft.Services;
+using System.Windows.Input;
 
 namespace LocaCraft.ViewModels
 {
@@ -8,20 +10,45 @@ namespace LocaCraft.ViewModels
     {
         #region Variables
         [ObservableProperty]
-        private BaseViewModel _currentView;
+        private BaseViewModel _currentViewModel;
+
+        private readonly NavigationStore _navigationStore;
+
+        public ICommand NavigateToHome { get; }
+        #endregion
+
+        #region RELAYCOMMANDS
+
+        private RelayCommand _navigateToRealEstateListCommand;
+
+        public IRelayCommand NavigateToRealEstateListCommand
+        {
+            get
+            {
+                return _navigateToRealEstateListCommand ??= new RelayCommand(NavigateToRealEstateList);
+            }
+        }
+
         #endregion
 
         #region Constructor
-        public MainWindowViewModel()
+        public MainWindowViewModel(NavigationStore navigationServices)
         {
-            _currentView = new RealEstateListViewModel();
+            _navigationStore = navigationServices;
+            CurrentViewModel = _navigationStore.CurrentViewModel;
+            NavigateToHome = new CommandNavigation<RealEstateListViewModel>(new NavigationService<RealEstateListViewModel>(_navigationStore, () => new RealEstateListViewModel(_navigationStore)));
+            _navigationStore.CurrentViewModelChanged += OnCurrentViewModelChanged;
         }
         #endregion
 
-        [RelayCommand]
-        public void ShowRealEstateList()
+        private void OnCurrentViewModelChanged()
         {
-            _currentView = new RealEstateListViewModel();
+            CurrentViewModel = _navigationStore.CurrentViewModel;
+        }
+
+        public void NavigateToRealEstateList()
+        {
+            NavigateToHome.Execute(null);
         }
     }
 }

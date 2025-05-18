@@ -1,4 +1,5 @@
-﻿using LocaCraft.ViewModels;
+﻿using LocaCraft.Services;
+using LocaCraft.ViewModels;
 using System.Configuration;
 using System.Data;
 using System.Windows;
@@ -13,10 +14,12 @@ namespace LocaCraft
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
+            NavigationStore navigationServices = new NavigationStore();
 
+            navigationServices.CurrentViewModel = new RealEstateListViewModel(navigationServices);
             var mainWindow = new MainWindow
             {
-                DataContext = new MainWindowViewModel()
+                DataContext = new MainWindowViewModel(navigationServices)
             };
             mainWindow.Show();
         }

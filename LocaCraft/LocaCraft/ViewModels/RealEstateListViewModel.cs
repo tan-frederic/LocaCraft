@@ -2,6 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using LocaCraft.DataServices;
 using LocaCraft.Models;
+using LocaCraft.Services;
 using LocaCraft.Views;
 using System.Collections.ObjectModel;
 
@@ -13,6 +14,7 @@ namespace LocaCraft.ViewModels
         public ObservableCollection<RealEstateAssetModel> RealEstateAssetModels { get; set; } = new ObservableCollection<RealEstateAssetModel>();
         public ObservableCollection<RealEstateCardItemViewModel> RealEstatesDisplayed { get; } = new();
 
+        private readonly NavigationStore _navigationServices;
         private readonly RealEstateDataService _service = new RealEstateDataService();
         private NewRealEstateView? _newRealEstateView;
 
@@ -25,9 +27,11 @@ namespace LocaCraft.ViewModels
         #endregion
 
         #region CONSTRUCTOR
-        public RealEstateListViewModel()
+        public RealEstateListViewModel(NavigationStore navigationServices)
         {
-
+            _searchText = string.Empty;
+            _navigationServices = navigationServices;
+            UpdateRealEstateList();
         }
         #endregion
 
@@ -88,7 +92,7 @@ namespace LocaCraft.ViewModels
 
             foreach (var realEstate in filteredRealEstate)
             {
-                RealEstatesDisplayed.Add(new RealEstateCardItemViewModel(realEstate));
+                RealEstatesDisplayed.Add(new RealEstateCardItemViewModel(realEstate, _navigationServices));
             }
         }
     }

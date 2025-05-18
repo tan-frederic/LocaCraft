@@ -1,4 +1,5 @@
-﻿using LocaCraft.ViewModels;
+﻿using LocaCraft.Services;
+using LocaCraft.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,6 @@ namespace LocaCraft.Views
         public RealEstateListView()
         {
             InitializeComponent();
-            DataContext = new RealEstateListViewModel();
         }
 
         private async void UserControl_Loaded(object sender, RoutedEventArgs e)

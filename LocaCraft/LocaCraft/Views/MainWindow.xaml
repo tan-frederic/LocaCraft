@@ -8,8 +8,8 @@
         xmlns:view="clr-namespace:LocaCraft.Views"
         mc:Ignorable="d"
         Title="MainWindow"
-        Height="800"
-        Width="1000"
+        Height="900"
+        Width="1100"
         WindowStartupLocation="CenterScreen">
 
     <!--
@@ -45,10 +45,10 @@
             <Button x:Name="btnHome"
                     Style="{DynamicResource SideMenuNavButton }"
                     Margin="0,10,0,0"
-                    Command="{Binding ShowRealEstateList}">
+                    Command="{Binding NavigateToRealEstateListCommand}">
                 <Viewbox Width="30" Height="30">
                     <Path Data="{DynamicResource HomeIcon}"
-                      Fill="White"/>
+                          Fill="White"/>
                 </Viewbox>
 
             </Button>
@@ -57,7 +57,7 @@
         <!-- Main page Content -->
         <ContentControl Grid.Column="1"
                         Margin="0 20 0 10"
-                        Content="{Binding CurrentView}"/>
+                        Content="{Binding CurrentViewModel}"/>
         <!--#endregion-->
     </Grid>
 

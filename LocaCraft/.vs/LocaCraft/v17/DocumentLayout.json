@@ -3,72 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\realestatedetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\realestatedetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\commands\\updateviewcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\commands\\updateviewcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\viewmodels\\realestatedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\viewmodels\\realestatedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\locacraft.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\locacraft.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\realestatedetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\realestatedetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\dataservices\\realestatedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\dataservices\\realestatedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\newrealestateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\newrealestateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\viewmodels\\newrealestateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\viewmodels\\newrealestateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\viewmodels\\realestatecarditemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\viewmodels\\realestatecarditemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\viewmodels\\realestateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\viewmodels\\realestateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\viewmodels\\realestatedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\viewmodels\\realestatedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\commands\\commandnavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\commands\\commandnavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\services\\navigationstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\services\\navigationstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\commands\\basecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\commands\\basecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\viewmodels\\realestatelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\viewmodels\\realestatelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\viewmodels\\realestatecarditemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\viewmodels\\realestatecarditemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\realestatecarditemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\realestatecarditemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\viewmodels\\realestateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\viewmodels\\realestateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\realestatelistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\realestatelistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\realestatelistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\realestatelistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\realestatedetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\realestatedetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\realestatecarditemview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\realestatecarditemview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\newrealestateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\newrealestateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\views\\newrealestateview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\views\\newrealestateview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\services\\realestatedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\services\\realestatedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\locacraft.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|solutionrelative:locacraft\\locacraft.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{690F4C55-1950-CB80-671D-0382F494E2A2}|LocaCraft\\LocaCraft.csproj|c:\\users\\tanfr\\documents\\git\\locacraft\\locacraft\\locacraft\\locacraft\\models\\leasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,30 +113,133 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "DockedWidth": 256,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateViewCommand.cs",
-              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Commands\\UpdateViewCommand.cs",
-              "RelativeDocumentMoniker": "LocaCraft\\Commands\\UpdateViewCommand.cs",
-              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Commands\\UpdateViewCommand.cs",
-              "RelativeToolTip": "LocaCraft\\Commands\\UpdateViewCommand.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAASAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Services\\NavigationService.cs",
+              "RelativeDocumentMoniker": "LocaCraft\\Services\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Services\\NavigationService.cs",
+              "RelativeToolTip": "LocaCraft\\Services\\NavigationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T07:58:52.143Z",
+              "WhenOpened": "2025-05-18T20:50:04.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "CommandNavigation.cs",
+              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Commands\\CommandNavigation.cs",
+              "RelativeDocumentMoniker": "LocaCraft\\Commands\\CommandNavigation.cs",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Commands\\CommandNavigation.cs",
+              "RelativeToolTip": "LocaCraft\\Commands\\CommandNavigation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:20:25.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RealEstateListView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateListView.xaml.cs",
+              "RelativeDocumentMoniker": "LocaCraft\\Views\\RealEstateListView.xaml.cs",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateListView.xaml.cs",
+              "RelativeToolTip": "LocaCraft\\Views\\RealEstateListView.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:15:13.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RealEstateDetailsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateDetailsView.xaml.cs",
+              "RelativeDocumentMoniker": "LocaCraft\\Views\\RealEstateDetailsView.xaml.cs",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateDetailsView.xaml.cs",
+              "RelativeToolTip": "LocaCraft\\Views\\RealEstateDetailsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:15:11.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RealEstateCardItemView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateCardItemView.xaml.cs",
+              "RelativeDocumentMoniker": "LocaCraft\\Views\\RealEstateCardItemView.xaml.cs",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateCardItemView.xaml.cs",
+              "RelativeToolTip": "LocaCraft\\Views\\RealEstateCardItemView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:15:09.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NewRealEstateView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\NewRealEstateView.xaml.cs",
+              "RelativeDocumentMoniker": "LocaCraft\\Views\\NewRealEstateView.xaml.cs",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\NewRealEstateView.xaml.cs",
+              "RelativeToolTip": "LocaCraft\\Views\\NewRealEstateView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:15:07.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RealEstateCardItemView.xaml",
+              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateCardItemView.xaml",
+              "RelativeDocumentMoniker": "LocaCraft\\Views\\RealEstateCardItemView.xaml",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateCardItemView.xaml",
+              "RelativeToolTip": "LocaCraft\\Views\\RealEstateCardItemView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T09:12:47.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseCommand.cs",
+              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Commands\\BaseCommand.cs",
+              "RelativeDocumentMoniker": "LocaCraft\\Commands\\BaseCommand.cs",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Commands\\BaseCommand.cs",
+              "RelativeToolTip": "LocaCraft\\Commands\\BaseCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:04:02.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NavigationStore.cs",
+              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Services\\NavigationStore.cs",
+              "RelativeDocumentMoniker": "LocaCraft\\Services\\NavigationStore.cs",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Services\\NavigationStore.cs",
+              "RelativeToolTip": "LocaCraft\\Services\\NavigationStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:00:55.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "LocaCraft",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft.csproj",
               "RelativeDocumentMoniker": "LocaCraft\\LocaCraft.csproj",
-              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft.csproj*",
-              "RelativeToolTip": "LocaCraft\\LocaCraft.csproj*",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft.csproj",
+              "RelativeToolTip": "LocaCraft\\LocaCraft.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-18T07:58:15.756Z",
@@ -112,85 +247,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RealEstateDataService.cs",
-              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\DataServices\\RealEstateDataService.cs",
-              "RelativeDocumentMoniker": "LocaCraft\\DataServices\\RealEstateDataService.cs",
-              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\DataServices\\RealEstateDataService.cs",
-              "RelativeToolTip": "LocaCraft\\DataServices\\RealEstateDataService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAQwFIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T07:27:33.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RealEstateDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\RealEstateDetailsViewModel.cs",
               "RelativeDocumentMoniker": "LocaCraft\\ViewModels\\RealEstateDetailsViewModel.cs",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\RealEstateDetailsViewModel.cs",
               "RelativeToolTip": "LocaCraft\\ViewModels\\RealEstateDetailsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAC9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T07:22:54.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
+              "Title": "RealEstateDataService.cs",
+              "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Services\\RealEstateDataService.cs",
+              "RelativeDocumentMoniker": "LocaCraft\\Services\\RealEstateDataService.cs",
+              "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Services\\RealEstateDataService.cs",
+              "RelativeToolTip": "LocaCraft\\Services\\RealEstateDataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:27:33.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RealEstateCardItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\RealEstateCardItemViewModel.cs",
               "RelativeDocumentMoniker": "LocaCraft\\ViewModels\\RealEstateCardItemViewModel.cs",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\RealEstateCardItemViewModel.cs",
               "RelativeToolTip": "LocaCraft\\ViewModels\\RealEstateCardItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAASwBoAAADeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T07:22:50.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "NewRealEstateViewModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\NewRealEstateViewModel.cs",
               "RelativeDocumentMoniker": "LocaCraft\\ViewModels\\NewRealEstateViewModel.cs",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\NewRealEstateViewModel.cs",
               "RelativeToolTip": "LocaCraft\\ViewModels\\NewRealEstateViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAADgv2QAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T07:21:46.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "BaseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "LocaCraft\\ViewModels\\BaseViewModel.cs",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\BaseViewModel.cs",
               "RelativeToolTip": "LocaCraft\\ViewModels\\BaseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T07:22:12.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "LocaCraft\\ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "LocaCraft\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T07:21:46.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 22,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\App.xaml",
               "RelativeDocumentMoniker": "LocaCraft\\App.xaml",
@@ -202,46 +337,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\App.xaml.cs",
               "RelativeDocumentMoniker": "LocaCraft\\App.xaml.cs",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\App.xaml.cs",
               "RelativeToolTip": "LocaCraft\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T20:28:34.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "LocaCraft\\Views\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\MainWindow.xaml.cs",
               "RelativeToolTip": "LocaCraft\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T20:28:22.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "RealEstateListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\RealEstateListViewModel.cs",
               "RelativeDocumentMoniker": "LocaCraft\\ViewModels\\RealEstateListViewModel.cs",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\RealEstateListViewModel.cs",
               "RelativeToolTip": "LocaCraft\\ViewModels\\RealEstateListViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T21:06:49.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "RealEstateViewModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\ViewModels\\RealEstateViewModel.cs",
               "RelativeDocumentMoniker": "LocaCraft\\ViewModels\\RealEstateViewModel.cs",
@@ -254,18 +389,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "RealEstateDetailsView.xaml",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateDetailsView.xaml",
               "RelativeDocumentMoniker": "LocaCraft\\Views\\RealEstateDetailsView.xaml",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateDetailsView.xaml",
               "RelativeToolTip": "LocaCraft\\Views\\RealEstateDetailsView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-15T21:06:27.547Z"
+              "WhenOpened": "2025-05-15T21:06:27.547Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "RealEstateListView.xaml",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\RealEstateListView.xaml",
               "RelativeDocumentMoniker": "LocaCraft\\Views\\RealEstateListView.xaml",
@@ -277,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "LeaseModel.cs",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Models\\LeaseModel.cs",
               "RelativeDocumentMoniker": "LocaCraft\\Models\\LeaseModel.cs",
@@ -289,18 +425,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "NewRealEstateView.xaml",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\NewRealEstateView.xaml",
               "RelativeDocumentMoniker": "LocaCraft\\Views\\NewRealEstateView.xaml",
               "ToolTip": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\NewRealEstateView.xaml",
               "RelativeToolTip": "LocaCraft\\Views\\NewRealEstateView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-14T23:31:06.552Z"
+              "WhenOpened": "2025-05-14T23:31:06.552Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\tanfr\\Documents\\Git\\LocaCraft\\LocaCraft\\LocaCraft\\LocaCraft\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "LocaCraft\\Views\\MainWindow.xaml",

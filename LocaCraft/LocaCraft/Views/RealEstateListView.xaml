@@ -7,7 +7,6 @@
              xmlns:vm="clr-namespace:LocaCraft.ViewModels"
              xmlns:views="clr-namespace:LocaCraft.Views"
              mc:Ignorable="d"
-             d:DataContext="{d:DesignInstance Type=vm:RealEstateListViewModel, IsDesignTimeCreatable=True}"
              d:DesignHeight="450" d:DesignWidth="800"
              Loaded="UserControl_Loaded">
     <Grid>

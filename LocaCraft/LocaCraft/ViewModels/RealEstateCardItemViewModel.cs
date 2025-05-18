@@ -1,14 +1,19 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using LocaCraft.Commands;
 using LocaCraft.DataServices;
 using LocaCraft.Models;
+using LocaCraft.Services;
 using System.Windows;
+using System.Windows.Input;
 
 namespace LocaCraft.ViewModels
 {
     public partial class RealEstateCardItemViewModel : BaseViewModel
     {
         #region ATTRIBUTES
+        public ICommand NavigateToDetail { get; }
+
         public RealEstateAssetModel RealEstateAssetModel { get; private set; }
 
         private RealEstateDataService _service = new RealEstateDataService();
@@ -16,9 +21,10 @@ namespace LocaCraft.ViewModels
         #endregion
 
         #region CONSTRUCTOR
-        public RealEstateCardItemViewModel(RealEstateAssetModel realEstateAssetModel)
+        public RealEstateCardItemViewModel(RealEstateAssetModel realEstateAssetModel, NavigationStore navigationStore)
         {
             RealEstateAssetModel = realEstateAssetModel;
+            NavigateToDetail = new CommandNavigation<RealEstateDetailsViewModel>(new NavigationService<RealEstateDetailsViewModel>(navigationStore, () => new RealEstateDetailsViewModel(realEstateAssetModel, navigationStore)));
         }
         #endregion
 
@@ -40,7 +46,7 @@ namespace LocaCraft.ViewModels
         [RelayCommand]
         public void OpenDetailRealEstate()
         {
-
+            NavigateToDetail.Execute(RealEstateAssetModel);
         }
     }
 }
