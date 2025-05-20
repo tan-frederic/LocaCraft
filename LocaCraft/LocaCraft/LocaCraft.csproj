@@ -9,9 +9,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="circle-with-cross.svg" />
+    <None Remove="file-1453.svg" />
+    <None Remove="icons8-home.svg" />
+    <None Remove="list-svgrepo-com.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Ressources\Icons\circle-with-cross.svg" />
+    <Resource Include="Ressources\Icons\list-svgrepo-com.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.5" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Ressources\Icons\icons8-home.svg" />
+    <Resource Include="Ressources\Icons\file-1453.svg" />
   </ItemGroup>
 
 </Project>
