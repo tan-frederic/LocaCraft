@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using LocaCraft.Commands;
 using LocaCraft.DataServices;
 using LocaCraft.Models;
@@ -12,6 +13,9 @@ namespace LocaCraft.ViewModels
     {
         #region ATTRIBUTES
 
+        public IRelayCommand<IDataObject> DropFilesCommand { get; }
+        public IRelayCommand<DragEventArgs> DragOverCommand { get; }
+
         public RealEstateAssetModel RealEstateAssetModel { get; private set; }
 
         private RealEstateDataService _service = new RealEstateDataService();
@@ -23,14 +27,26 @@ namespace LocaCraft.ViewModels
         #endregion
 
         #region CONSTRUCTOR
+        public RealEstateDetailsViewModel()
+        {
+            _dropText = "Drop your file here";
+            RealEstateAssetModel = new RealEstateAssetModel();
+            NavigateToHome = new CommandNavigation<RealEstateListViewModel>(new NavigationService<RealEstateListViewModel>(new NavigationStore(), () => new RealEstateListViewModel(new NavigationStore())));
+            DropFilesCommand = new RelayCommand<IDataObject>(HandleDropCommand);
+            DragOverCommand = new RelayCommand<DragEventArgs>(HandleDragOverCommand);
+        }
+
         public RealEstateDetailsViewModel(RealEstateAssetModel realEstateAssetModel, NavigationStore navigationStore)
         {
+            _dropText = "Drop your file here";
             RealEstateAssetModel = realEstateAssetModel;
             NavigateToHome = new CommandNavigation<RealEstateListViewModel>(new NavigationService<RealEstateListViewModel>(navigationStore, () => new RealEstateListViewModel(navigationStore)));
+            DropFilesCommand = new RelayCommand<IDataObject>(HandleDropCommand);
+            DragOverCommand = new RelayCommand<DragEventArgs>(HandleDragOverCommand);
         }
         #endregion
 
-        public void Border_DragOver(object sender, DragEventArgs e)
+        public void HandleDragOverCommand(DragEventArgs e)
         {
             if (e.Data.GetDataPresent(DataFormats.FileDrop))
             {
@@ -44,18 +60,18 @@ namespace LocaCraft.ViewModels
             }
         }
 
-        public void Border_Drop(object sender, DragEventArgs e)
+        public void HandleDropCommand(IDataObject dataObject)
         {
-            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            if (!dataObject.GetDataPresent(DataFormats.FileDrop))
+                return;
+
+            string[] files = (string[])dataObject.GetData(DataFormats.FileDrop)!;
+            if (files.Length > 0)
             {
-                string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
-                if (files.Length > 0)
-                {
-                    // Handle the dropped file(s) here
-                    string filePath = files[0];
-                    DropText = $"File dropped: {filePath}";
-                    // Do something with the file path, e.g., display it or process it
-                }
+                // Handle the dropped file(s) here
+                string filePath = files[0];
+                DropText = $"File dropped: {filePath}";
+                // Do something with the file path, e.g., display it or process it
             }
         }
     }

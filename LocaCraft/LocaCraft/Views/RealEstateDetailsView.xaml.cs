@@ -25,21 +25,5 @@ namespace LocaCraft.Views
         {
             InitializeComponent();
         }
-
-        private void Border_DragOver(object sender, DragEventArgs e)
-        {
-            if (DataContext is RealEstateDetailsViewModel vm)
-            {
-                vm.Border_DragOver(sender, e);
-            }
-        }
-
-        private void Border_Drop(object sender, DragEventArgs e)
-        {
-            if (DataContext is RealEstateDetailsViewModel vm)
-            {
-                vm.Border_Drop(sender, e);
-            }
-        }
     }
 }
