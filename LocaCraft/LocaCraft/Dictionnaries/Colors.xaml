@@ -2,9 +2,11 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!-- Background Menu -->
     <SolidColorBrush x:Key="BackgroundMenu" Color="#FF162B6B"/>
-
     <SolidColorBrush x:Key="PlaceholderText" Color="#FFA0A0A0"/>
     
+    <!-- Card Background -->
+    <SolidColorBrush x:Key="CardBackground" Color="#FFB9C7D4"/>
+
     <!-- Borders -->
     <SolidColorBrush x:Key="Borders" Color="#FFCCCCCC"/>
     <SolidColorBrush x:Key="AccentDarkOver" Color="#FF396A84"/>
@@ -13,4 +15,18 @@
     <SolidColorBrush x:Key="Nav.Default" Color="Transparent"/>
     <SolidColorBrush x:Key="Nav.Over" Color="#FF396A84"/>
     <SolidColorBrush x:Key="Nav.Click" Color="#FF87B7D0"/>
+
+    <SolidColorBrush x:Key="AccentDark" Color="#FF162B6B"/>
+    <SolidColorBrush x:Key="OnAccent" Color="#FFFFFFFF"/>
+    <SolidColorBrush x:Key="AccentDarkClick" Color="#FF3C60CE"/>
+
+    <!-- Cancel Button Color -->
+    <SolidColorBrush x:Key="Button.Cancel" Color="#FFA94949"/>
+    <SolidColorBrush x:Key="Button.Cancel.Over" Color="#FF863636"/>
+    <SolidColorBrush x:Key="Button.Cancel.Click" Color="#FFC18888"/>
+
+    <!-- Validate Button Color -->
+    <SolidColorBrush x:Key="Button.Validate" Color="#FF57B186"/>
+    <SolidColorBrush x:Key="Button.Validate.Over" Color="#FF48B868"/>
+    <SolidColorBrush x:Key="Button.Validate.Click" Color="#FF9FD4BB"/>
 </ResourceDictionary>

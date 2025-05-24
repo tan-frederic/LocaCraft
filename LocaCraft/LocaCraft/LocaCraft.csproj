@@ -13,9 +13,11 @@
     <None Remove="file-1453.svg" />
     <None Remove="icons8-home.svg" />
     <None Remove="list-svgrepo-com.svg" />
+    <None Remove="plus-svgrepo-com.svg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Ressources\Icons\plus-svgrepo-com.svg" />
     <Resource Include="Ressources\Icons\circle-with-cross.svg" />
     <Resource Include="Ressources\Icons\list-svgrepo-com.svg" />
   </ItemGroup>

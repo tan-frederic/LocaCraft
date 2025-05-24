@@ -17,7 +17,12 @@ namespace LocaCraft.Views
                 CloseAction = Close
             };
             DataContext = viewModel;
-        }        
+        }
+
+        private void CancelRealEstate_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 
 

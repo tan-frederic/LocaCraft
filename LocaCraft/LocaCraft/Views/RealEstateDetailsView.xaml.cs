@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LocaCraft.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,22 @@ namespace LocaCraft.Views
         public RealEstateDetailsView()
         {
             InitializeComponent();
+        }
+
+        private void Border_DragOver(object sender, DragEventArgs e)
+        {
+            if (DataContext is RealEstateDetailsViewModel vm)
+            {
+                vm.Border_DragOver(sender, e);
+            }
+        }
+
+        private void Border_Drop(object sender, DragEventArgs e)
+        {
+            if (DataContext is RealEstateDetailsViewModel vm)
+            {
+                vm.Border_Drop(sender, e);
+            }
         }
     }
 }

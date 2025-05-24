@@ -25,5 +25,10 @@ namespace LocaCraft.Views
         {
             InitializeComponent();
         }
+
+        private void CancelRealEstate_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

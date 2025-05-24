@@ -11,15 +11,24 @@ namespace LocaCraft
     /// </summary>
     public partial class App : Application
     {
+        #region VARIABLES
+        private readonly NavigationStore _navigationStore;
+        #endregion
+
+        App()
+        {
+            // Initialize the application and set up any necessary resources or services here.
+            _navigationStore = new NavigationStore();
+        }
+
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            NavigationStore navigationServices = new NavigationStore();
 
-            navigationServices.CurrentViewModel = new RealEstateListViewModel(navigationServices);
+            _navigationStore.CurrentViewModel = new RealEstateListViewModel(_navigationStore);
             var mainWindow = new MainWindow
             {
-                DataContext = new MainWindowViewModel(navigationServices)
+                DataContext = new MainWindowViewModel(_navigationStore)
             };
             mainWindow.Show();
         }

@@ -21,7 +21,7 @@
                  Grid.Row="0"
                  Style="{StaticResource SearchBox}"
                  Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
-                 Margin="20 0"/>
+                 Margin="20 0 25 0"/>
 
         <Label IsHitTestVisible="False"
                    Content="Search real estate..."
@@ -66,7 +66,7 @@
         <!-- Placeholder Text -->
         <TextBlock Grid.Row="1"
            Foreground="{StaticResource PlaceholderText}"
-           Text="There is not real estate Data"
+           Text="Il n'y a pas de propriété"
            VerticalAlignment="Center"
            HorizontalAlignment="Center"
            FontSize="24">
@@ -89,6 +89,13 @@
                 Width="50"
                 Margin="0 0 10 0"
                 Command="{Binding OpenNewRealEstateWindowCommand}"
-                HorizontalAlignment="Right"/>
+                Style="{StaticResource RoundButton}"
+                HorizontalAlignment="Right">
+            <Viewbox Height="35"
+                     Width="35">
+                <Path Data="{StaticResource PlusIcon}"
+                      Fill="{StaticResource OnAccent}"/>
+            </Viewbox>
+        </Button>
     </Grid>
 </UserControl>

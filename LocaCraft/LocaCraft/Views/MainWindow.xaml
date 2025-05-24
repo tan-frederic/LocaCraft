@@ -10,6 +10,7 @@
         Title="MainWindow"
         Height="1000"
         Width="950"
+        MinWidth="536"
         WindowStartupLocation="CenterScreen">
 
     <!--
@@ -56,7 +57,7 @@
         
         <!-- Main page Content -->
         <ContentControl Grid.Column="1"
-                        Margin="0 20 0 10"
+                        Margin="2 20 0 20"
                         Content="{Binding CurrentViewModel}"/>
         <!--#endregion-->
     </Grid>
