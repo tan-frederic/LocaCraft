@@ -4,6 +4,7 @@ using LocaCraft.Commands;
 using LocaCraft.DataServices;
 using LocaCraft.Models;
 using LocaCraft.Services;
+using LocaCraft.Views;
 using System.Windows;
 using System.Windows.Input;
 
@@ -19,6 +20,8 @@ namespace LocaCraft.ViewModels
         public RealEstateAssetModel RealEstateAssetModel { get; private set; }
 
         private RealEstateDataService _service = new RealEstateDataService();
+
+        private NewLeaseView? _newLeaseView;
 
         [ObservableProperty]
         private string _dropText;
@@ -45,6 +48,24 @@ namespace LocaCraft.ViewModels
             DragOverCommand = new RelayCommand<DragEventArgs>(HandleDragOverCommand);
         }
         #endregion
+
+        [RelayCommand]
+        public void OpentNewLeaseWindow()
+        {
+            // Logic to open a new lease window can be added here
+            // For example, you could navigate to a new view model or open a new window
+            if (_newLeaseView == null || !_newLeaseView.IsLoaded )
+            {
+                _newLeaseView = new NewLeaseView();
+                _newLeaseView.Closed += (s, e) => _newLeaseView = null; // Add event handler to set _newLeaseView to null when closed
+                _newLeaseView.Show(); // Show the new window
+                _newLeaseView.Focus(); // Set focus to the new window
+            }
+            else
+            {
+                _newLeaseView.Focus(); // Set focus to the existing window if it is already open
+            }
+        }
 
         public void HandleDragOverCommand(DragEventArgs e)
         {
