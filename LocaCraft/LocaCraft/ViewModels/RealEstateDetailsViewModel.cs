@@ -21,6 +21,9 @@ namespace LocaCraft.ViewModels
 
         private RealEstateDataService _service = new RealEstateDataService();
 
+        [ObservableProperty]
+        private bool _isNewLeaseViewOpen = false;
+        [ObservableProperty]
         private NewLeaseView? _newLeaseView;
 
         [ObservableProperty]
@@ -52,19 +55,14 @@ namespace LocaCraft.ViewModels
         [RelayCommand]
         public void OpentNewLeaseWindow()
         {
-            // Logic to open a new lease window can be added here
-            // For example, you could navigate to a new view model or open a new window
-            if (_newLeaseView == null || !_newLeaseView.IsLoaded )
+            var addLeaseViewModel = new NewLeaseViewModel(this, RealEstateAssetModel);
+            addLeaseViewModel.CloseAction = () => IsNewLeaseViewOpen = false;
+            NewLeaseView = new NewLeaseView()
             {
-                _newLeaseView = new NewLeaseView();
-                _newLeaseView.Closed += (s, e) => _newLeaseView = null; // Add event handler to set _newLeaseView to null when closed
-                _newLeaseView.Show(); // Show the new window
-                _newLeaseView.Focus(); // Set focus to the new window
-            }
-            else
-            {
-                _newLeaseView.Focus(); // Set focus to the existing window if it is already open
-            }
+                DataContext = addLeaseViewModel
+            };
+
+            IsNewLeaseViewOpen = true;
         }
 
         public void HandleDragOverCommand(DragEventArgs e)

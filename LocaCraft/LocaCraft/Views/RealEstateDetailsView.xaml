@@ -9,264 +9,285 @@
              xmlns:local="clr-namespace:LocaCraft.Behaviours"
              mc:Ignorable="d" 
              d:DataContext="{d:DesignInstance Type=vm:RealEstateDetailsViewModel}"
-             d:DesignHeight="1100" d:DesignWidth="800">
-    <Grid Margin="10 5">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="50"/>
-        </Grid.RowDefinitions>
-        <!--#region Name Header -->
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="80"/>
-                <ColumnDefinition Width="1*"/>
-            </Grid.ColumnDefinitions>
-
-            <Label Content="Nom :"
-               VerticalAlignment="Center"
-               HorizontalAlignment="Center"/>
-
-            <TextBox x:Name="RealEstateName"
-                     Grid.Column="1"
-                     Style="{StaticResource SearchBox}"                     
-                     Text="{Binding RealEstateAssetModel.Name}"
-                     Margin="20 0"/>
-
-            <Label IsHitTestVisible="False"
-               Content="Nom de la propriété"
-               Grid.Column="1"
-               VerticalAlignment="Center"
-               Margin="40 0 0 0"
-               Foreground="{StaticResource PlaceholderText}"
-               Visibility="{Binding Text.IsEmpty, ElementName=RealEstateName, Converter={StaticResource BooleanVisibilityConverter}}"/>
-        </Grid>
-        <!--#endregion-->
-
-        <!--#region Real Estate Address -->
-
-        <Grid Grid.Row="1">
+             d:DesignHeight="1000" d:DesignWidth="1600">
+    <Grid>
+        <!-- Main Real estate view -->
+        <Grid Margin="10 5">
             <Grid.RowDefinitions>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="60"/>
-                <RowDefinition Height="30"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
+            <!--#region Name Header -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
 
-            <Label Grid.Row="0"
-               Content="Informations"
+                <Label Content="Nom :"
+           VerticalAlignment="Center"
+           HorizontalAlignment="Center"/>
+
+                <TextBox x:Name="RealEstateName"
+                 Grid.Column="1"
+                 Style="{StaticResource SearchBox}"                     
+                 Text="{Binding RealEstateAssetModel.Name}"
+                 Margin="20 0"/>
+
+                <Label IsHitTestVisible="False"
+           Content="Nom de la propriété"
+           Grid.Column="1"
+           VerticalAlignment="Center"
+           Margin="40 0 0 0"
+           Foreground="{StaticResource PlaceholderText}"
+           Visibility="{Binding Text.IsEmpty, ElementName=RealEstateName, Converter={StaticResource BooleanVisibilityConverter}}"/>
+            </Grid>
+            <!--#endregion-->
+
+            <!--#region Real Estate Address -->
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0"
+           Content="Informations"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Center"/>
+
+                <!--#region Main Adress -->
+
+                <!-- Main Adress Label -->
+                <Label Grid.Row="1"
+           Content="Adresse :"
+           Margin="20 0"
+           VerticalAlignment="Center"
+           HorizontalAlignment="Left"/>
+
+                <!-- Main Adress Textbox -->
+                <TextBox x:Name="RealEstateAdress"
+             Grid.Row="2"
+             Text="{Binding RealEstateAssetModel.Address}"
+             Style="{StaticResource SearchBox}"
+             Margin="0 0" Cursor=""/>
+
+                <!-- Main Adress Text Placeholder -->
+                <Label IsHitTestVisible="False"
+           Content="Adresse"
+           Grid.Row="2"
+           VerticalAlignment="Center"
+           Margin="20 0 0 5"
+           
+           Foreground="{StaticResource PlaceholderText}"
+           Visibility="{Binding Text.IsEmpty, ElementName=RealEstateAdress, Converter={StaticResource BooleanVisibilityConverter}}"/>
+                <!--#endregion-->
+
+                <!--#region Adress Complement -->
+                <!-- Main Adress Label -->
+                <Label Content="Complément d'adresse :"
+           Grid.Row="3"
+           Margin="20 0"
+           VerticalAlignment="Center"
+           HorizontalAlignment="Left"/>
+
+                <!-- Main Adress Textbox -->
+                <TextBox x:Name="RealEstateAdressComplement"
+             Grid.Row="4"
+             Text="{Binding RealEstateAssetModel.AddressComplement}"
+             Style="{StaticResource SearchBox}"
+             Margin="0 0"/>
+
+                <!-- Main Adress Text Placeholder -->
+                <Label IsHitTestVisible="False"
+           Content="Complément d'adresse"
+           Grid.Row="4"
+           VerticalAlignment="Center"
+           Margin="20 0 0 0"
+           Foreground="{StaticResource PlaceholderText}"
+           Visibility="{Binding Text.IsEmpty, ElementName=RealEstateAdressComplement, Converter={StaticResource BooleanVisibilityConverter}}"/>
+
+                <!--#endregion-->
+
+                <!--#region City and Postal Code -->
+                <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--#region Postal Code -->
+
+                    <Grid Grid.Column="0" Margin="0 0 5 0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0"
+                   Content="Code Postale :"
+                   Margin="20 0"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"/>
+
+                        <!-- Postal Code Textbox -->
+                        <TextBox x:Name="RealEstatePostalCode"
+                     Text="{Binding RealEstateAssetModel.PostalCode, ValidatesOnDataErrors=True}"
+                     Grid.Row="1"
+                     Style="{StaticResource SearchBox}"
+                     Margin="0 0"/>
+
+                        <!-- Postal Code Text Placeholder -->
+                        <Label IsHitTestVisible="False"
+                   Content="Complément d'adresse"
+                   Grid.Row="1"
+                   VerticalAlignment="Center"
+                   Margin="20 0 0 0"
+                   Foreground="{StaticResource PlaceholderText}"
+                   Visibility="{Binding Text.IsEmpty, ElementName=RealEstatePostalCode, Converter={StaticResource BooleanVisibilityConverter}}"/>
+
+                    </Grid>
+
+                    <!--#endregion-->
+
+                    <!--#region City -->
+                    <Grid Grid.Column="1"  Margin="5 0 0 0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0"
+                   Content="Ville :"
+                   Margin="20 0"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"/>
+
+                        <!-- Postal Code Textbox -->
+                        <TextBox x:Name="RealEstateCity"
+                     Grid.Row="1"
+                     Style="{StaticResource SearchBox}"
+                        Text="{Binding RealEstateAssetModel.City, ValidatesOnDataErrors=True}"
+                     Margin="0 0" Cursor=""/>
+
+                        <!-- Postal Code Text Placeholder -->
+                        <Label IsHitTestVisible="False"
+                   Content="Ville"
+                   Grid.Row="1"
+                   VerticalAlignment="Center"
+                   Margin="20 0 0 0"
+                   Foreground="{StaticResource PlaceholderText}"
+                   Visibility="{Binding Text.IsEmpty, ElementName=RealEstateCity, Converter={StaticResource BooleanVisibilityConverter}}"/>
+
+                    </Grid>
+                    <!--#endregion-->
+
+                </Grid>
+                <!--#endregion-->
+            </Grid>
+
+            <!--#region Real Estate Documents -->
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="90"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Label Content="Bail"
+               Grid.Row="0"
                HorizontalAlignment="Center"
                VerticalAlignment="Center"/>
 
-            <!--#region Main Adress -->
+                <Button Grid.Row="1"
+                x:Name="AddRealEstateLease"
+                Content="Ajouter un bail nouveau"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Height="50"
+                Width="200"
+                Command="{Binding OpentNewLeaseWindowCommand}"/>
 
-            <!-- Main Adress Label -->
-            <Label Grid.Row="1"
-               Content="Adresse :"
-               Margin="20 0"
-               VerticalAlignment="Center"
-               HorizontalAlignment="Left"/>
-
-            <!-- Main Adress Textbox -->
-            <TextBox x:Name="RealEstateAdress"
-                 Grid.Row="2"
-                 Text="{Binding RealEstateAssetModel.Address}"
-                 Style="{StaticResource SearchBox}"
-                 Margin="0 0" Cursor=""/>
-
-            <!-- Main Adress Text Placeholder -->
-            <Label IsHitTestVisible="False"
-               Content="Adresse"
+                <Label Content="Documents"
                Grid.Row="2"
-               VerticalAlignment="Center"
-               Margin="20 0 0 5"
-               
-               Foreground="{StaticResource PlaceholderText}"
-               Visibility="{Binding Text.IsEmpty, ElementName=RealEstateAdress, Converter={StaticResource BooleanVisibilityConverter}}"/>
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"/>
+
+                <Button Grid.Row="3"
+                x:Name="AddRealEstateDocument"
+                Content="Ajouter un bail nouveau"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Height="50"
+                Width="200"/>
+
+                <Border Grid.Row="4"
+                Background="LightGray"
+                BorderThickness="5"
+                CornerRadius="20"
+                Margin="0 10">
+                    <i:Interaction.Behaviors>
+                        <local:DragAndDropCommandBehaviour
+                    DropCommand="{Binding DropFilesCommand}"
+                    DragOverCommand="{Binding DragOverCommand}"/>
+                    </i:Interaction.Behaviors>
+                    <TextBlock x:Name="TextDragZoneContent" Text="{Binding DropText}" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Border>
+
+            </Grid>
             <!--#endregion-->
 
-            <!--#region Adress Complement -->
-            <!-- Main Adress Label -->
-            <Label Content="Complément d'adresse :"
-               Grid.Row="3"
-               Margin="20 0"
-               VerticalAlignment="Center"
-               HorizontalAlignment="Left"/>
-
-            <!-- Main Adress Textbox -->
-            <TextBox x:Name="RealEstateAdressComplement"
-                 Grid.Row="4"
-                 Text="{Binding RealEstateAssetModel.AddressComplement}"
-                 Style="{StaticResource SearchBox}"
-                 Margin="0 0"/>
-
-            <!-- Main Adress Text Placeholder -->
-            <Label IsHitTestVisible="False"
-               Content="Complément d'adresse"
-               Grid.Row="4"
-               VerticalAlignment="Center"
-               Margin="20 0 0 0"
-               Foreground="{StaticResource PlaceholderText}"
-               Visibility="{Binding Text.IsEmpty, ElementName=RealEstateAdressComplement, Converter={StaticResource BooleanVisibilityConverter}}"/>
-
-            <!--#endregion-->
-
-            <!--#region City and Postal Code -->
-            <Grid Grid.Row="5">
+            <Grid Grid.Row="3">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
 
-                <!--#region Postal Code -->
+                <Button x:Name="CancelRealEstate"
+            Grid.Column="0"
+            Height="50"
+            Margin="0 0 5 0"
+            Content="Annuler"
+            Command="{Binding AskToCloseCommand}"/>
 
-                <Grid Grid.Column="0" Margin="0 0 5 0">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                    </Grid.RowDefinitions>
-
-                    <Label Grid.Row="0"
-                       Content="Code Postale :"
-                       Margin="20 0"
-                       VerticalAlignment="Center"
-                       HorizontalAlignment="Left"/>
-
-                    <!-- Postal Code Textbox -->
-                    <TextBox x:Name="RealEstatePostalCode"
-                         Text="{Binding RealEstateAssetModel.PostalCode, ValidatesOnDataErrors=True}"
-                         Grid.Row="1"
-                         Style="{StaticResource SearchBox}"
-                         Margin="0 0"/>
-
-                    <!-- Postal Code Text Placeholder -->
-                    <Label IsHitTestVisible="False"
-                       Content="Complément d'adresse"
-                       Grid.Row="1"
-                       VerticalAlignment="Center"
-                       Margin="20 0 0 0"
-                       Foreground="{StaticResource PlaceholderText}"
-                       Visibility="{Binding Text.IsEmpty, ElementName=RealEstatePostalCode, Converter={StaticResource BooleanVisibilityConverter}}"/>
-
-                </Grid>
-
-                <!--#endregion-->
-
-                <!--#region City -->
-                <Grid Grid.Column="1"  Margin="5 0 0 0">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                    </Grid.RowDefinitions>
-
-                    <Label Grid.Row="0"
-                       Content="Ville :"
-                       Margin="20 0"
-                       VerticalAlignment="Center"
-                       HorizontalAlignment="Left"/>
-
-                    <!-- Postal Code Textbox -->
-                    <TextBox x:Name="RealEstateCity"
-                         Grid.Row="1"
-                         Style="{StaticResource SearchBox}"
-                            Text="{Binding RealEstateAssetModel.City, ValidatesOnDataErrors=True}"
-                         Margin="0 0" Cursor=""/>
-
-                    <!-- Postal Code Text Placeholder -->
-                    <Label IsHitTestVisible="False"
-                       Content="Ville"
-                       Grid.Row="1"
-                       VerticalAlignment="Center"
-                       Margin="20 0 0 0"
-                       Foreground="{StaticResource PlaceholderText}"
-                       Visibility="{Binding Text.IsEmpty, ElementName=RealEstateCity, Converter={StaticResource BooleanVisibilityConverter}}"/>
-
-                </Grid>
-                <!--#endregion-->
-
+                <Button x:Name="AddRealEstate"
+            Grid.Column="1"
+            Height="50"
+            Margin="0 0 5 0"
+            Content="Ajouter"
+            Command="{Binding AddNewRealEstateCommand}"/>
             </Grid>
+
             <!--#endregion-->
+
+
         </Grid>
 
-        <!--#region Real Estate Documents -->
-        <Grid Grid.Row="2">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="120"/>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="90"/>
-                <RowDefinition Height="1*"/>
-            </Grid.RowDefinitions>
-            <Label Content="Bail"
-                   Grid.Row="0"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"/>
+        <Border Background="#80000000"
+                Visibility="{Binding IsNewLeaseViewOpen, Converter={StaticResource BooleanVisibilityConverter}}"
+                Panel.ZIndex="9"/>
 
-            <Button Grid.Row="1"
-                    x:Name="AddRealEstateLease"
-                    Content="Ajouter un bail nouveau"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center"
-                    Height="50"
-                    Width="200"
-                    Command="{Binding OpentNewLeaseWindowCommand}"/>
-
-            <Label Content="Documents"
-                   Grid.Row="2"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"/>
-
-            <Button Grid.Row="3"
-                    x:Name="AddRealEstateDocument"
-                    Content="Ajouter un bail nouveau"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center"
-                    Height="50"
-                    Width="200"/>
-
-            <Border Grid.Row="4"
-                    Background="LightGray"
-                    BorderThickness="5"
-                    CornerRadius="20"
-                    Margin="0 10">
-                <i:Interaction.Behaviors>
-                    <local:DragAndDropCommandBehaviour
-                        DropCommand="{Binding DropFilesCommand}"
-                        DragOverCommand="{Binding DragOverCommand}"/>
-                </i:Interaction.Behaviors>
-                <TextBlock x:Name="TextDragZoneContent" Text="{Binding DropText}" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Border>
-
-        </Grid>
-        <!--#endregion-->
-
-        <Grid Grid.Row="3">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-            </Grid.ColumnDefinitions>
-
-            <Button x:Name="CancelRealEstate"
-                Grid.Column="0"
-                Height="50"
-                Margin="0 0 5 0"
-                Content="Annuler"
-                Command="{Binding AskToCloseCommand}"/>
-
-            <Button x:Name="AddRealEstate"
-                Grid.Column="1"
-                Height="50"
-                Margin="0 0 5 0"
-                Content="Ajouter"
-                Command="{Binding AddNewRealEstateCommand}"/>
-        </Grid>
-
-        <!--#endregion-->
-
-
+            <!-- Drawer latéral -->
+        <Border x:Name="DrawerPanel"
+            Background="White"
+            Width="700"
+            VerticalAlignment="Stretch"
+            HorizontalAlignment="Right"
+            Visibility="{Binding IsNewLeaseViewOpen, Converter={StaticResource BooleanVisibilityConverter}}"
+            Panel.ZIndex="10"
+            Margin="0">
+            <ContentControl Content="{Binding NewLeaseView}"
+                            Margin="10"/>
+        </Border>
     </Grid>
+    
 </UserControl>

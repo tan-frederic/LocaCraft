@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         Title="MainWindow"
         Height="1000"
-        Width="950"
+        Width="1600"
         MinWidth="536"
         WindowStartupLocation="CenterScreen">
 

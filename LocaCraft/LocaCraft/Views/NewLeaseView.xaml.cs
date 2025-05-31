@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace LocaCraft.Views
@@ -17,7 +18,7 @@ namespace LocaCraft.Views
     /// <summary>
     /// Logique d'interaction pour NewLeaseView.xaml
     /// </summary>
-    public partial class NewLeaseView : Window
+    public partial class NewLeaseView : UserControl
     {
         public NewLeaseView()
         {
