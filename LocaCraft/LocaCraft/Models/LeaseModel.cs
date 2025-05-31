@@ -9,6 +9,7 @@ namespace LocaCraft.Models
     public class LeaseModel
     {
         public int LeaseId { get; set; }
+        public string LeaseName { get; set; }
         public string LeaseDocumentPath { get; set; }
         public float MonthlyRent { get; set; }
         public float MonthlyExpenses { get; set; }

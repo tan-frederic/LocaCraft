@@ -46,6 +46,8 @@ namespace LocaCraft.ViewModels
         #region CONSTRUCTOR
         public NewLeaseViewModel(RealEstateDetailsViewModel realEstateDetailsViewModel, RealEstateAssetModel assetModel)
         {
+            _startDate = DateTime.Now;
+            _endDate = DateTime.Now.AddYears(3); // Default to three year lease
             _monthlyRent = 0.0f;
             _assetModel = assetModel;
             _realEstateDetailsViewModel = realEstateDetailsViewModel;

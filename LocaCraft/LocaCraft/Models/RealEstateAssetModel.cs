@@ -16,6 +16,7 @@ namespace LocaCraft.Models
 
     public class RealEstateAssetModel
     {
+        #region VARIABLES
         public int Id { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
@@ -23,7 +24,8 @@ namespace LocaCraft.Models
         public string PostalCode { get; set; }
         public string City { get; set; }
         public string Country { get; set; }
-        public List<LeaseModel> Lease { get; set; }
+        public List<LeaseModel> Leases { get; set; }
+        #endregion
 
         #region LEASE
         /// <summary>
@@ -33,9 +35,22 @@ namespace LocaCraft.Models
         /// <param name="newLease">The lease to add to the asset's lease list.</param>
         public void AddNewLease(LeaseModel newLease)
         {
-            if (Lease == null)
-                Lease = new List<LeaseModel>();
-            Lease.Add(newLease);
+            if (Leases == null)
+                Leases = new List<LeaseModel>();
+            newLease.LeaseId = GenerateLeaseId();
+            Leases.Add(newLease);
+        }
+
+        /// <summary>
+        /// Generate a new id for the Lease.
+        /// </summary>
+        /// <returns>The new ID</returns>
+        public int GenerateLeaseId()
+        {
+            // Generate a new id for the Lease
+            int newId = Leases.Count > 0 ? Leases.Max(x => x.LeaseId) + 1 : 1;
+            // Return the new id
+            return newId;
         }
 
         /// <summary>
@@ -45,9 +60,9 @@ namespace LocaCraft.Models
         /// <param name="leaseToRemove">The lease to remove from the asset's lease list.</param>
         public void RemoveLease(LeaseModel leaseToRemove)
         {
-            if (leaseToRemove == null || Lease == null)
+            if (leaseToRemove == null || Leases == null)
                 return;
-            Lease.RemoveAll(l => l.LeaseId == leaseToRemove.LeaseId);
+            Leases.RemoveAll(l => l.LeaseId == leaseToRemove.LeaseId);
         }
 
         /// <summary>
@@ -58,9 +73,9 @@ namespace LocaCraft.Models
         /// <param name="updatedLease">The lease containing updated values to apply.</param>
         public void UpdateLease(LeaseModel updatedLease)
         {
-            if (updatedLease == null || Lease == null)
+            if (updatedLease == null || Leases == null)
                 return;
-            var existingLease = Lease.FirstOrDefault(l => l.LeaseId == updatedLease.LeaseId);
+            var existingLease = Leases.FirstOrDefault(l => l.LeaseId == updatedLease.LeaseId);
             if (existingLease != null)
             {
                 existingLease.LeaseDocumentPath = updatedLease.LeaseDocumentPath;
@@ -78,7 +93,7 @@ namespace LocaCraft.Models
         /// </summary>
         public bool HasLease()
         {
-            return Lease != null && Lease.Count > 0;
+            return Leases != null && Leases.Count > 0;
         }
 
         /// <summary>
@@ -88,9 +103,9 @@ namespace LocaCraft.Models
         /// <returns><see langword="true"/> if the specified lease exists in the collection; otherwise, <see langword="false"/>.</returns>
         public bool HasThisLease(LeaseModel lease)
         {
-            if (lease == null || Lease == null)
+            if (lease == null || Leases == null)
                 return false;
-            return Lease.Any(l => l.LeaseId == lease.LeaseId);
+            return Leases.Any(l => l.LeaseId == lease.LeaseId);
         }
         #endregion
     }
