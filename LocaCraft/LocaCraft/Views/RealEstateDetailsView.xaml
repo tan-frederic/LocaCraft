@@ -274,9 +274,15 @@
 
         <Border Background="#80000000"
                 Visibility="{Binding IsNewLeaseViewOpen, Converter={StaticResource BooleanVisibilityConverter}}"
-                Panel.ZIndex="9"/>
+                Panel.ZIndex="9">
+            <i:Interaction.Behaviors>
+                <local:MouseEventCommandBehaviour 
+                    EventName="MouseLeftButtonDown"
+                    Command="{Binding CloseNewLeaseWindowCommand}"/>
+            </i:Interaction.Behaviors>
+        </Border>
 
-            <!-- Drawer latéral -->
+        <!-- Drawer latéral -->
         <Border x:Name="DrawerPanel"
             Background="White"
             Width="700"

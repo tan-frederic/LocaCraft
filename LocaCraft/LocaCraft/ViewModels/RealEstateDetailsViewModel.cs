@@ -93,5 +93,15 @@ namespace LocaCraft.ViewModels
                 // Do something with the file path, e.g., display it or process it
             }
         }
+
+        [RelayCommand]
+        public void CloseNewLeaseWindow()
+        {
+            if (NewLeaseView != null && IsNewLeaseViewOpen)
+            {
+                NewLeaseView = null;
+                IsNewLeaseViewOpen = false;
+            }
+        }
     }
 }
